@@ -40,7 +40,7 @@ jobs:
 
 
   build:
-    name: "Construção do Container1"
+    name: "Construção do Container"
     needs: test
     runs-on: ubuntu-latest
     steps:
